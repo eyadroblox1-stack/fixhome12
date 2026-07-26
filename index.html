@@ -1,0 +1,741 @@
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مركز الصيانة المعتمد</title>
+  
+  <!-- خطوط جوجل وأيقونات -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- ربط ملف الـ CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- شريط التنقل العلوي -->
+  <header class="navbar">
+    <div class="logo">
+      <i class="fa-solid fa-gear"></i> مركز الصيانة المعتمد
+    </div>
+    <nav class="nav-links">
+      <a href="#" id="link-home" class="active">الرئيسية</a>
+      <a href="#" id="link-services">الخدمات</a>
+      <a href="#" id="link-brands">الماركات</a>
+      <a href="#" id="link-about">من نحن</a>
+      <a href="#" class="nav-btn-book trigger-booking">احجز الآن</a>
+    </nav>
+    <a href="tel:01100786152" class="hotline-btn">
+      <i class="fa-solid fa-phone"></i> 01100786152
+    </a>
+  </header>
+
+  <!-- الحاوية الرئيسية للصفحة الأولى -->
+  <div id="home-section">
+    
+    <!-- القسم الرئيسي -->
+    <section class="hero">
+      <div class="hero-content">
+        <span class="badge">خدمة عملاء 24 ساعة - 7 أيام في الأسبوع</span>
+        <h1>أقرب شركة صيانة أجهزة منزلية لحد باب بيتك</h1>
+        <p>الغسالة وقفت في نص الغسيل؟ الثلاجة بطلت تبرّد؟ السخان بيفصل؟ مكالمة واحدة وفي نفس اليوم الفني هيكون عندك يصلح الجهاز قدام عينك بضمان معتمد.</p>
+        
+        <div class="hero-buttons">
+          <a href="#" class="btn-primary trigger-booking">احجز صيانة دلوقتي <i class="fa-solid fa-arrow-left"></i></a>
+          <a href="https://wa.me/201100786152?text=السلام عليكم، أريد حجز موعد صيانة." target="_blank" class="btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> واتساب</a>
+        </div>
+        
+        <div class="features-bar">
+          <span><i class="fa-solid fa-check"></i> ضمان 6 شهور</span>
+          <span><i class="fa-solid fa-check"></i> صيانة في البيت</span>
+          <span><i class="fa-solid fa-check"></i> 70+ فني متخصص</span>
+        </div>
+      </div>
+      
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?q=80&w=2070&auto=format&fit=crop" alt="فني صيانة">
+        <div class="image-badge">
+          <i class="fa-solid fa-shield-halved"></i> خدمة مضمونة
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم من نحن المُصغر -->
+    <section class="about-section">
+      <div class="about-text">
+        <span class="badge-light">مين إحنا؟</span>
+        <h2>شركة صيانة أجهزة منزلية شغلها بيتكلم عنها</h2>
+        <p>مركز الصيانة المعتمد شركة صيانة أجهزة منزلية متخصصة في كل الأجهزة بكل ماركاتها: الغسالات، الثلاجات، الديب فريزر، البوتاجازات، الأفران، السخانات، الميكروويف، الشفاطات، الشاشات، والمجففات.</p>
+        <p>فرعنا الرئيسي في المهندسين (شارع جامعة الدول العربية - الجيزة)، ومعانا مراكز صيانة في طنطا والإسكندرية، وأكثر من 5 ورش مجهزة، وأسطول سيارات بيوصل الفنيين لباب بيتك أينما كنت.</p>
+        
+        <div class="highlight-box">
+          <p>وخلينا نقولها من الأول: إحنا مش شركة «صيانة وتحصيل».. هدفنا الحقيقي إن جهازك يفضل شغال أطول مدة ممكنة، وعشان كده بنفضل متابعين حالته معاك حتى بعد ما الصيانة تخلص.</p>
+        </div>
+      </div>
+      
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1604754742629-3e5728249d73?q=80&w=2070&auto=format&fit=crop" alt="فريق الصيانة">
+        <div class="floating-badge-about">
+           <i class="fa-solid fa-shield-halved"></i>
+           <div class="badge-text-about">
+             <strong>ضمان 6 شهور</strong>
+             <span>على كل صيانة</span>
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم مميزاتنا -->
+    <section class="features-section">
+      <div class="features-header">
+        <span class="badge-light-blue">ليه تختارنا؟</span>
+        <h2>مش أي حد يلمس أجهزة بيتك.. وده اللي بيفرّقنا</h2>
+      </div>
+
+      <div class="warranty-banner">
+        <div class="warranty-number">
+          <span class="num">6</span>
+          <span class="text">شهور ضمان<br>رسمي</span>
+        </div>
+        <div class="warranty-text">
+          <span class="badge-small"><i class="fa-solid fa-file-signature"></i> عقد مكتوب</span>
+          <h3>ضمان 6 شهور حقيقي</h3>
+          <p>بيتنقل رسميًا من خدمة العملاء بعد الصيانة، مش مجرد وعد على التليفون.</p>
+        </div>
+        <div class="warranty-icon">
+          <i class="fa-solid fa-shield-check"></i>
+        </div>
+      </div>
+
+      <div class="features-cards-grid">
+        <div class="feat-card">
+          <span class="card-number">01</span>
+          <div class="feat-icon"><i class="fa-solid fa-wrench"></i></div>
+          <h4>فني متخصص في جهازك بالظبط</h4>
+          <p>كل فني شغال على حسب نوع الجهاز والماركة، ومعظم فريقنا خبرته مش بتقل عن 5 سنين.</p>
+        </div>
+        <div class="feat-card">
+          <span class="card-number">02</span>
+          <div class="feat-icon"><i class="fa-solid fa-users"></i></div>
+          <h4>فريق 70+ في محافظات مصر</h4>
+          <p>أسطولنا جاهز يوصلك في العاصمة، الإسكندرية، والساحل الشمالي بأسرع وقت.</p>
+        </div>
+        <div class="feat-card">
+          <span class="card-number">03</span>
+          <div class="feat-icon"><i class="fa-regular fa-calendar-check"></i></div>
+          <h4>إنت صاحب الميعاد</h4>
+          <p>بتحدد اليوم والساعة اللي تناسبك في المكالمة، والفني بيلتزم بيهم بالدقيقة.</p>
+        </div>
+        <div class="feat-card">
+          <span class="card-number">04</span>
+          <div class="feat-icon"><i class="fa-solid fa-gear"></i></div>
+          <h4>قطع غيار أصلية</h4>
+          <p>بنوفر القطع الأصلية عشان نضمن كفاءة الجهاز وإنه يعيش معاك أطول فترة.</p>
+        </div>
+        <div class="feat-card">
+          <span class="card-number">05</span>
+          <div class="feat-icon"><i class="fa-solid fa-house-chimney-crack"></i></div>
+          <h4>صيانة جوا البيت</h4>
+          <p>90% من الأعطال بتتحل قدام عينك في مكانها بدون بهدلة ونقل للجهاز.</p>
+        </div>
+        <div class="feat-card">
+          <span class="card-number">06</span>
+          <div class="feat-icon"><i class="fa-solid fa-headset"></i></div>
+          <h4>دعم فني متواصل</h4>
+          <p>فريقنا بيتابع معاك للتأكد إن الجهاز شغال بأعلى كفاءة وجاهزين لأي استفسار.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم الخدمات المختصر -->
+    <section class="services-grid-section">
+      <div class="section-header-center">
+        <span class="badge-dark-blue">خدماتنا</span>
+        <h2>بنصلّح إيه؟ أي جهاز.. أي ماركة.. أي عطل</h2>
+        <p>فريق صيانة متخصص لكل نوع جهاز، وقطع الغيار المناسبة له – كل اللي عليك تقولنا الجهاز عنده إيه.</p>
+      </div>
+
+      <div class="grid-top">
+        <div class="service-card-lg">
+          <i class="fa-solid fa-shirt"></i>
+          <h3>صيانة غسالات</h3>
+          <p>فول أوتوماتيك وعادية بكل أنواعها، مشاكل العصر والتنشيف والتسريب والبرمجة.</p>
+        </div>
+        <div class="service-card-lg">
+          <i class="fa-solid fa-snowflake"></i>
+          <h3>صيانة ثلاجات</h3>
+          <p>تبريد ضعيف، ثلج زيادة، أصوات غريبة، أعطال الموتور والتحكم.</p>
+        </div>
+        <div class="service-card-lg">
+          <i class="fa-solid fa-fire-burner"></i>
+          <h3>صيانة بوتاجازات</h3>
+          <p>عيون مش بتولع، شرار ضعيف، مشاكل الأمان والشواية.</p>
+        </div>
+        <div class="service-card-lg">
+          <i class="fa-solid fa-temperature-half"></i>
+          <h3>صيانة سخانات</h3>
+          <p>غاز وكهرباء: تسخين ضعيف، فصل مفاجئ، أو تسريب مياه.</p>
+        </div>
+      </div>
+
+      <div class="grid-bottom">
+        <div class="service-card-sm"><i class="fa-solid fa-icicles"></i><h3>صيانة ديب فريزر</h3></div>
+        <div class="service-card-sm"><i class="fa-solid fa-sink"></i><h3>صيانة غسالات أطباق</h3></div>
+        <div class="service-card-sm"><i class="fa-solid fa-wave-square"></i><h3>صيانة ميكروويف</h3></div>
+        <div class="service-card-sm"><i class="fa-solid fa-fan"></i><h3>صيانة شفاطات</h3></div>
+        <div class="service-card-sm"><i class="fa-solid fa-tv"></i><h3>صيانة شاشات</h3></div>
+        <div class="service-card-sm"><i class="fa-solid fa-wind"></i><h3>صيانة مجففات</h3></div>
+      </div>
+
+      <div class="services-footer-text">
+        <p>مهما كانت ماركة جهازك، هتلاقي عندنا الفني المتخصص فيها بالظبط.</p>
+      </div>
+    </section>
+
+    <!-- قسم الأسئلة الشائعة -->
+    <section class="faq-section">
+      <div class="section-header-center">
+        <span class="badge-light-blue" style="background-color: #e0f2fe; color: #0284c7;">عندك سؤال؟</span>
+        <h2 style="color: #1e293b;">الأسئلة الشائعة</h2>
+        <p style="color: #64748b; max-width: 600px; margin: 0 auto;">جمعنالك أكتر أسئلة بتجيلنا عشان نجاوبك عليها بكل شفافية ووضوح قبل ما تتصل بينا.</p>
+      </div>
+
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>هل الصيانة بتتم في البيت ولا بتسحبوا الجهاز للورشة؟</h3>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>أكتر من 90% من الأعطال بتتم صيانتها جوه بيتك قدام عينك في نفس اليوم. الجهاز مابيتسحبش للورشة إلا في حالات نادرة جداً وطبعاً ده بيتم بموافقتك وبإيصال استلام رسمي.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>إيه هي مدة الضمان اللي بتقدموها على الصيانة؟</h3>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>بندي ضمان معتمد ومكتوب لمدة 6 شهور على أي قطعة غيار بنركبها وعلى شغل الفني نفسه.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>هل متوفر قطع غيار أصلية لكل الماركات؟</h3>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>أكيد. إحنا بنتعامل مع موردين معتمدين عشان نوفر قطع الغيار الأصلية لكل الماركات المشهورة.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>الفني بيوصل في خلال وقت قد إيه؟</h3>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>بمجرد تأكيد الحجز، الفني بيتواصل معاك وبيوصلك في نفس اليوم أو خلال 24 ساعة بالكتير.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- صفحة الماركات (القائمة الأساسية) -->
+  <div id="brands-section" style="display: none;">
+    <section class="services-hero">
+      <div class="services-overlay"></div>
+      <div class="services-content">
+        <div class="breadcrumb">الرئيسية <i class="fa-solid fa-chevron-left"></i> <span>الماركات</span></div>
+        <span class="badge-dark"><span class="dot"></span> توكيلات الصيانة</span>
+        <h1>الماركات التي نقوم بصيانتها</h1>
+        <p>نتعامل مع كافة الماركات العالمية والمحلية بقطع غيار أصلية وضمان معتمد لضمان عودة جهازك لحالته الأصلية بأعلى كفاءة.</p>
+      </div>
+    </section>
+
+    <section class="brands-page-content">
+      <div class="brands-grid-container">
+        <div class="brand-card trigger-brand" data-brand="Samsung"><h3>Samsung</h3></div>
+        <div class="brand-card trigger-brand" data-brand="LG"><h3>LG</h3></div>
+        <div class="brand-card trigger-brand" data-brand="Toshiba"><h3>Toshiba</h3></div>
+        <div class="brand-card trigger-brand" data-brand="Zanussi"><h3>Zanussi</h3></div>
+        <div class="brand-card trigger-brand" data-brand="Bosch"><h3>Bosch</h3></div>
+        <div class="brand-card trigger-brand" data-brand="Beko"><h3>Beko</h3></div>
+        <div class="brand-card trigger-brand" data-brand="Ariston"><h3>Ariston</h3></div>
+        <div class="brand-card trigger-brand" data-brand="Indesit"><h3>Indesit</h3></div>
+        <div class="brand-card trigger-brand" data-brand="Tornado"><h3>Tornado</h3></div>
+        <div class="brand-card trigger-brand" data-brand="Fresh"><h3>Fresh</h3></div>
+        <div class="brand-card trigger-brand" data-brand="Electrolux"><h3>Electrolux</h3></div>
+        <div class="brand-card trigger-brand" data-brand="Panasonic"><h3>Panasonic</h3></div>
+        <div class="brand-card trigger-brand" data-brand="White Whale"><h3>White Whale</h3></div>
+        <div class="brand-card trigger-brand" data-brand="Hoover"><h3>Hoover</h3></div>
+        <div class="brand-card trigger-brand" data-brand="AEG"><h3>AEG</h3></div>
+        <div class="brand-card trigger-brand" data-brand="Unionaire"><h3>Unionaire</h3></div>
+        <div class="brand-card trigger-brand" data-brand="Sharp"><h3>Sharp</h3></div>
+        <div class="brand-card trigger-brand" data-brand="Carrier"><h3>Carrier</h3></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ================= القسم الجديد: الصفحة الديناميكية للماركة (المقال الضخم) ================= -->
+  <section id="brand-dynamic-page" style="display: none;">
+    
+    <!-- هيرو الماركة -->
+    <div class="brand-hero-header">
+      <div class="brand-hero-content">
+        <span class="badge-light-blue" style="background: rgba(255,255,255,0.2); color: #fff; border: 1px solid rgba(255,255,255,0.4);">صيانة متخصصة</span>
+        <h1>مركز صيانة وإصلاح أجهزة <span class="dyn-brand-name">LG</span> المعتمد</h1>
+        <p>نحن الخيار الأول لإصلاح جميع أجهزة <span class="dyn-brand-name">LG</span> في منزلك. نمتلك الخبرة، قطع الغيار الأصلية، والأدوات الحديثة لإعادة جهازك للعمل بكفاءته الأصلية.</p>
+        <div class="dynamic-buttons" style="margin-top: 20px;">
+          <a href="tel:01100786152" class="btn-primary" style="background: #fff; color: #007bb5;"><i class="fa-solid fa-phone"></i> اتصل: 01100786152</a>
+          <a href="#" id="dyn-brand-whatsapp" target="_blank" class="btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> احجز واتساب</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- المقال والصور -->
+    <div class="brand-article-container">
+      
+      <!-- التفاصيل الجانبية (المقال) -->
+      <div class="brand-long-text">
+        <h2>لماذا نحن الأفضل في صيانة <span class="dyn-brand-name">LG</span>؟</h2>
+        <p>تعتبر أجهزة <strong><span class="dyn-brand-name">LG</span></strong> من الأجهزة التي تعتمد على تكنولوجيا دقيقة ومعقدة، سواء كانت تقنيات الإنفرتر (Inverter) في الثلاجات والغسالات، أو اللوحات الإلكترونية الذكية. التدخل من فني غير مختص قد يؤدي إلى تلف هذه الأجزاء الحساسة وتكبيد العميل خسائر فادحة.</p>
+        <p>لذلك، في مركزنا، نخصص فريقاً من المهندسين والفنيين الذين تم تدريبهم خصيصاً على معالجة كافة أعطال ماركة <span class="dyn-brand-name">LG</span>. نحن لا نقوم بمجرد "تغيير القطعة"، بل نقوم بفحص شامل للجهاز لتحديد السبب الجذري للعطل لضمان عدم تكراره.</p>
+
+        <div class="brand-features-list">
+          <div class="bf-item"><i class="fa-solid fa-house-circle-check"></i> <div><strong>صيانة منزلية 100%</strong> <span>نقوم بمعظم أعمال الصيانة لـ <span class="dyn-brand-name">LG</span> داخل منزلك دون نقل الجهاز.</span></div></div>
+          <div class="bf-item"><i class="fa-solid fa-microchip"></i> <div><strong>قطع غيار أصلية</strong> <span>نوفر قطع غيار <span class="dyn-brand-name">LG</span> الأصلية لضمان العمر الافتراضي الطويل.</span></div></div>
+          <div class="bf-item"><i class="fa-solid fa-file-shield"></i> <div><strong>ضمان معتمد ومكتوب</strong> <span>نقدم ضماناً حقيقياً لمدة 6 أشهر على قطع الغيار والصيانة.</span></div></div>
+        </div>
+
+        <h2>الأجهزة التي نصلحها من <span class="dyn-brand-name">LG</span></h2>
+        <p>مهما كان الجهاز الذي تملكه من إنتاج شركة <span class="dyn-brand-name">LG</span>، فنحن جاهزون للتعامل معه:</p>
+
+        <div class="brand-devices-list">
+          <div class="bd-card">
+            <img src="https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=600&auto=format&fit=crop" alt="غسالات">
+            <div class="bd-info">
+              <h3>غسالات <span class="dyn-brand-name">LG</span></h3>
+              <p>صيانة الغسالات الفول أوتوماتيك، الفوق أوتوماتيك، ومجففات <span class="dyn-brand-name">LG</span>. نعالج مشاكل عدم العصر، تسريب المياه، وتوقف الكارتة.</p>
+            </div>
+          </div>
+          <div class="bd-card">
+            <img src="https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?q=80&w=600&auto=format&fit=crop" alt="ثلاجات">
+            <div class="bd-info">
+              <h3>ثلاجات <span class="dyn-brand-name">LG</span></h3>
+              <p>إصلاح جميع ثلاجات <span class="dyn-brand-name">LG</span> النوفروست والديفروست. معالجة تسريب الفريون، تغيير الموتور، وإصلاح أعطال التبريد وتراكم الثلج.</p>
+            </div>
+          </div>
+          <div class="bd-card">
+            <!-- الصورة الجديدة للبوتاجازات -->
+            <img src="image_8fc441.jpg" alt="بوتاجازات">
+            <div class="bd-info">
+              <h3>أفران وبوتاجازات <span class="dyn-brand-name">LG</span></h3>
+              <p>نقدم خدمة تسليك الفواني، صيانة مفصلات الأبواب، وتصليح دوائر الإشعال الذاتي لأجهزة الطبخ من <span class="dyn-brand-name">LG</span>.</p>
+            </div>
+          </div>
+          <div class="bd-card">
+            <!-- الصورة الجديدة لغسالات الأطباق -->
+            <img src="image_8fc803.jpg" alt="غسالات أطباق">
+            <div class="bd-info">
+              <h3>غسالات أطباق <span class="dyn-brand-name">LG</span></h3>
+              <p>علاج مشاكل عدم سحب الماء، ضعف التنظيف، والأكواد التحذيرية التي تظهر على شاشة الغسالة.</p>
+            </div>
+          </div>
+        </div>
+
+        <h2>طريقة العمل عند اتصالك بنا لصيانة <span class="dyn-brand-name">LG</span></h2>
+        <p>بمجرد اتصالك على الخط الساخن، يقوم ممثل خدمة العملاء بتسجيل شكواك ومعرفة موديل جهاز <span class="dyn-brand-name">LG</span> الخاص بك. يتم إرسال فني مجهز بأحدث أدوات القياس والفحص، حيث يقوم بفحص الجهاز بالكامل وتحديد التكلفة الفعلية قبل البدء في العمل، وذلك لضمان الشفافية التامة معك.</p>
+      </div>
+
+      <!-- معرض الصور الجانبي -->
+      <div class="brand-gallery-sidebar">
+        <div class="gallery-title">
+          <h3><i class="fa-solid fa-camera-retro"></i> من داخل أعمالنا في <span class="dyn-brand-name">LG</span></h3>
+          <p>نلتزم بأعلى معايير الجودة أثناء فحص وصيانة أجهزتكم.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=800&auto=format&fit=crop" alt="صيانة جهاز">
+        <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=800&auto=format&fit=crop" alt="فني صيانة">
+        <img src="https://images.unsplash.com/photo-1604754742629-3e5728249d73?q=80&w=800&auto=format&fit=crop" alt="تصليح كارتة">
+        <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=800&auto=format&fit=crop" alt="أدوات صيانة">
+        
+        <div class="call-action-box">
+          <h4>جاهزون لصيانة جهازك الآن</h4>
+          <a href="#" class="btn-primary trigger-booking" style="width: 100%; justify-content: center; margin-top: 15px;">احجز موعد صيانة</a>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- ================= نهاية الصفحة الديناميكية للماركة ================= -->
+
+  <!-- صفحة من نحن -->
+  <div id="about-page-section" style="display: none;">
+    <section class="services-hero">
+      <div class="services-overlay"></div>
+      <div class="services-content">
+        <div class="breadcrumb">الرئيسية <i class="fa-solid fa-chevron-left"></i> <span>من نحن</span></div>
+        <span class="badge-dark"><span class="dot"></span> قصتنا</span>
+        <h1>أكثر من 15 سنة خبرة في صيانة الأجهزة المنزلية</h1>
+        <p>نحن لا نقدم مجرد صيانة، بل نعيد الحياة لأجهزتك بضمان وثقة واحترافية.</p>
+      </div>
+    </section>
+
+    <section class="about-page-content">
+      <div class="who-we-are">
+        <span class="badge-light-blue">إحنا مين؟</span>
+        <h2>مركز الصيانة المعتمد الأول في مصر</h2>
+        <p>بدأنا رحلتنا بهدف واحد: تقديم خدمة صيانة تليق بالبيت المصري. إحنا مش مجرد فنيين، إحنا كيان متكامل بيضم أفضل المهندسين والخبراء في صيانة كافة الأجهزة المنزلية. بنوفر قطع الغيار الأصلية، ونضمن لك كفاءة العمل كأن الجهاز لسه جديد. شعارنا دايماً هو المصداقية والشفافية مع العميل من أول مكالمة لحد ما نستلم الجهاز وهو شغال 100%.</p>
+      </div>
+
+      <div class="our-team">
+        <span class="badge-light-blue">فريقنا</span>
+        <h2>خبراء الصيانة بين إيديك</h2>
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="team-icon"><i class="fa-solid fa-user-gear"></i></div>
+            <h3>مهندسين متخصصين</h3>
+            <p>كل مهندس وفني في فريقنا متخصص في ماركات وأجهزة معينة ومُدرب على أعلى مستوى لضمان أعلى جودة في الصيانة.</p>
+          </div>
+          <div class="team-card">
+            <div class="team-icon"><i class="fa-solid fa-truck-fast"></i></div>
+            <h3>أسطول سيارات متنقل</h3>
+            <p>فنيين مجهزين بأحدث أدوات الفحص، جاهزين للوصول لباب بيتك في أسرع وقت في مختلف المحافظات.</p>
+          </div>
+          <div class="team-card">
+            <div class="team-icon"><i class="fa-solid fa-user-check"></i></div>
+            <h3>رقابة جودة ومتابعة</h3>
+            <p>فريق كامل مهمته مراجعة كل طلب صيانة بعد الانتهاء للتأكد من رضا العميل التام واستقرار الجهاز.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="customer-service-box">
+        <div class="cs-text">
+          <span class="badge-dark-blue" style="color: white; border-color: rgba(255,255,255,0.3);">خدمة العملاء</span>
+          <h2>دايماً معاك.. 24 ساعة / 7 أيام</h2>
+          <p>عطل مفاجئ في نص الليل؟ الثلاجة فصلت والآكل هيبوظ؟ مفيش مشكلة. فريق خدمة العملاء جاهز لاستقبال مكالماتك وحجز المواعيد وتقديم الدعم الفني في أي وقت وعلى مدار الأسبوع بدون إجازات.</p>
+          <a href="tel:01100786152" class="btn-primary" style="display: inline-flex; margin-top: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.2);"><i class="fa-solid fa-phone"></i> 01100786152</a>
+        </div>
+        <div class="cs-icon">
+          <i class="fa-solid fa-headset"></i>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- صفحة الخدمات التفصيلية -->
+  <div id="services-section" style="display: none;">
+    <section class="services-hero">
+      <div class="services-overlay"></div>
+      <div class="services-content">
+        <div class="breadcrumb">الرئيسية <i class="fa-solid fa-chevron-left"></i> <span>الخدمات</span></div>
+        <span class="badge-dark"><span class="dot"></span> خدماتنا</span>
+        <h1>كل الأجهزة، كل الماركات.. فني متخصص لكل جهاز</h1>
+        <p>أي جهاز في بيتك ممكن يتعب في أي لحظة.. والمهم وقتها تلاقي شركة تعرف بتعمل إيه بالظبط.</p>
+        <div class="services-features">
+          <span><i class="fa-solid fa-check"></i> في متخصص لكل جهاز</span>
+          <span><i class="fa-solid fa-check"></i> صيانة في البيت</span>
+          <span><i class="fa-solid fa-check"></i> ضمان 6 شهور</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-detailed-section">
+      <div class="detailed-header">
+        <span class="badge-light-blue">بنصلّح إيه؟</span>
+        <h2>اختار جهازك.. واعرف بنعالج فيه إيه</h2>
+      </div>
+
+      <div class="detailed-grid">
+        <div class="detailed-card">
+          <div class="card-head">
+            <div class="title-box"><h3>صيانة غسالات فول أوتوماتيك وعادي</h3></div>
+            <div class="icon-box"><i class="fa-solid fa-shirt"></i></div>
+          </div>
+          <p class="card-desc">الغسالة أكتر جهاز شغال في البيت.. بنصلح الفول أوتوماتيك والعادية بكل ماركاتها.</p>
+          <a href="#" class="card-link trigger-device" data-device="washing-machine">تفاصيل صيانة الجهاز <i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <div class="detailed-card">
+          <div class="card-head">
+            <div class="title-box"><h3>صيانة ثلاجات نوفروست وديفروست</h3></div>
+            <div class="icon-box"><i class="fa-solid fa-snowflake"></i></div>
+          </div>
+          <p class="card-desc">الثلاجة مينفعش تستنى.. بنتعامل مع كل أنواع الثلاجات وكل الأحجام والماركات.</p>
+          <a href="#" class="card-link trigger-device" data-device="fridge">تفاصيل صيانة الجهاز <i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <div class="detailed-card">
+          <div class="card-head">
+            <div class="title-box"><h3>صيانة ديب فريزر (أفقي ورأسي)</h3></div>
+            <div class="icon-box"><i class="fa-solid fa-icicles"></i></div>
+          </div>
+          <p class="card-desc">الديب فريزر هو خزانة البيت، بنوفر صيانة فورية تحمي أكلك وترجع التبريد لكفاءته الأصلية.</p>
+          <a href="#" class="card-link trigger-device" data-device="deep-freezer">تفاصيل صيانة الجهاز <i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <div class="detailed-card">
+          <div class="card-head">
+            <div class="title-box"><h3>صيانة بوتاجازات وأفران</h3></div>
+            <div class="icon-box"><i class="fa-solid fa-fire-burner"></i></div>
+          </div>
+          <p class="card-desc">الأمان رقم واحد. بنعالج كل مشاكل تسريب الغاز وضعف النار ومشاكل الإشعال الذاتي.</p>
+          <a href="#" class="card-link trigger-device" data-device="cooker">تفاصيل صيانة الجهاز <i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <div class="detailed-card">
+          <div class="card-head">
+            <div class="title-box"><h3>صيانة سخانات (غاز وكهرباء)</h3></div>
+            <div class="icon-box"><i class="fa-solid fa-temperature-half"></i></div>
+          </div>
+          <p class="card-desc">مفيش غنى عن السخان، بنحل كل مشاكل السخانات سواء فاصلة كهرباء، أو الغاز مش بيلقط.</p>
+          <a href="#" class="card-link trigger-device" data-device="heater">تفاصيل صيانة الجهاز <i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+        <div class="detailed-card">
+          <div class="card-head">
+            <div class="title-box"><h3>صيانة غسالات أطباق</h3></div>
+            <div class="icon-box"><i class="fa-solid fa-sink"></i></div>
+          </div>
+          <p class="card-desc">بنحل مشاكل عدم سحب أو طرد المياه، وضعف التنظيف، عشان الأطباق تطلع بتلمع.</p>
+          <a href="#" class="card-link trigger-device" data-device="dishwasher">تفاصيل صيانة الجهاز <i class="fa-solid fa-chevron-left"></i></a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- الصفحة الديناميكية الخاصة بكل جهاز -->
+  <section id="device-dynamic-page" style="display: none;">
+    <div class="dynamic-container">
+      <div class="dynamic-text">
+        <span class="status-dot"><i class="fa-solid fa-circle"></i> خدمة عملاء شغالة دلوقتي - 24 ساعة</span>
+        <h1 id="dyn-title"></h1>
+        <p id="dyn-desc"></p>
+        
+        <div class="dynamic-faults">
+          <h3><i class="fa-solid fa-screwdriver-wrench"></i> أشهر الأعطال اللي بنعالجها:</h3>
+          <ul id="dyn-faults-list">
+            <!-- الأعطال هتتضاف هنا عن طريق الجافاسكريبت -->
+          </ul>
+        </div>
+        
+        <!-- القسم الجديد: الخدمات الإضافية -->
+        <div class="dynamic-extras" id="dyn-extras-container" style="display: none;">
+          <h3><i class="fa-solid fa-star"></i> خدمات إضافية بنقدمها للجهاز ده:</h3>
+          <ul id="dyn-extras-list"></ul>
+        </div>
+
+        <!-- القسم الجديد: الأسئلة الشائعة الخاصة بالجهاز -->
+        <div class="dynamic-faqs-section" id="dyn-faqs-container" style="display: none;">
+          <h3><i class="fa-regular fa-comments"></i> أسئلة بتوصلنا كل يوم:</h3>
+          <div class="dyn-faqs-list" id="dyn-faqs-list"></div>
+        </div>
+
+        <div class="dynamic-buttons">
+          <a href="tel:01100786152" class="btn-call-dynamic"><i class="fa-solid fa-phone"></i> اتصل: 01100786152</a>
+          <a href="#" id="dyn-whatsapp" target="_blank" class="btn-whatsapp-dynamic">احجز واتساب <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="dynamic-stats">
+          <div class="stat-box"><strong>60+</strong><span>ماركة بنصلحها</span></div>
+          <div class="stat-box"><strong>24س</strong><span>وصول سريع</span></div>
+          <div class="stat-box"><strong>90%</strong><span>نخلص من أول زيارة</span></div>
+          <div class="stat-box"><strong>6</strong><span>شهور ضمان مكتوب</span></div>
+        </div>
+      </div>
+
+      <div class="dynamic-image-box">
+        <img id="dyn-img" src="" alt="صيانة الجهاز">
+        <div class="price-badge">
+          <strong>كشف وسعر قبل الشغل</strong>
+          <span>ومبنبداش غير لما توافق</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم الحجز -->
+  <section id="booking-section" style="display: none;">
+    <div class="booking-container">
+      <div class="booking-header">
+        <i class="fa-solid fa-stopwatch"></i>
+        <h2>احجز موعد صيانة الآن</h2>
+        <p>املأ البيانات دي وهنتواصل معاك فوراً لتأكيد الميعاد</p>
+      </div>
+      <form class="booking-form" id="booking-form">
+        <div id="form-inputs-wrapper">
+          <div class="form-row">
+            <div class="form-group">
+              <label>الاسم بالكامل</label>
+              <input type="text" name="name" placeholder="اكتب اسمك هنا..." required>
+            </div>
+            <div class="form-group">
+              <label>رقم التليفون (للتواصل)</label>
+              <input type="tel" name="phone" placeholder="مثال: 01100786152" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>إيه الجهاز اللي محتاج صيانة؟</label>
+              <select name="device" required>
+                <option value="" disabled selected>اختر الجهاز...</option>
+                <option value="غسالة ملابس">غسالة ملابس</option>
+                <option value="ثلاجة">ثلاجة</option>
+                <option value="تكييف">تكييف</option>
+                <option value="ديب فريزر">ديب فريزر</option>
+                <option value="بوتاجاز / فرن">بوتاجاز / فرن</option>
+                <option value="سخان">سخان</option>
+                <option value="غسالة أطباق">غسالة أطباق</option>
+                <option value="ميكروويف">ميكروويف</option>
+                <option value="شاشة تلفزيون">شاشة تلفزيون</option>
+                <option value="شفاط">شفاط</option>
+                <option value="مكنسة كهربائية">مكنسة كهربائية</option>
+                <option value="مبرد مياه (ديسبنسر)">مبرد مياه (ديسبنسر)</option>
+                <option value="أخرى">جهاز آخر</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>الماركة</label>
+              <select name="brand" required>
+                <option value="" disabled selected>اختر الماركة...</option>
+                <option value="سامسونج">سامسونج</option>
+                <option value="إل جي">إل جي</option>
+                <option value="توشيبا">توشيبا</option>
+                <option value="زانوسي">زانوسي</option>
+                <option value="بوش">بوش</option>
+                <option value="بيكو">بيكو</option>
+                <option value="فريش">فريش</option>
+                <option value="تورنيدو">تورنيدو</option>
+                <option value="يونيون اير">يونيون اير</option>
+                <option value="شارب">شارب</option>
+                <option value="أخرى">أخرى</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>المحافظة</label>
+            <select name="governorate" required>
+              <option value="" disabled selected>اختر المحافظة...</option>
+              <option value="القاهرة">القاهرة</option>
+              <option value="الجيزة">الجيزة</option>
+              <option value="الإسكندرية">الإسكندرية</option>
+              <option value="الساحل الشمالي">الساحل الشمالي</option>
+              <option value="الدقهلية">الدقهلية</option>
+              <option value="الشرقية">الشرقية</option>
+              <option value="الغربية">الغربية</option>
+              <option value="القليوبية">القليوبية</option>
+              <option value="المنوفية">المنوفية</option>
+              <option value="البحيرة">البحيرة</option>
+              <option value="كفر الشيخ">كفر الشيخ</option>
+              <option value="دمياط">دمياط</option>
+              <option value="بورسعيد">بورسعيد</option>
+              <option value="الإسماعيلية">الإسماعيلية</option>
+              <option value="السويس">السويس</option>
+              <option value="مطروح">مطروح</option>
+              <option value="الفيوم">الفيوم</option>
+              <option value="بني سويف">بني سويف</option>
+              <option value="المنيا">المنيا</option>
+              <option value="أسيوط">أسيوط</option>
+              <option value="سوهاج">سوهاج</option>
+              <option value="قنا">قنا</option>
+              <option value="الأقصر">الأقصر</option>
+              <option value="أسوان">أسوان</option>
+              <option value="البحر الأحمر">البحر الأحمر</option>
+              <option value="الوادي الجديد">الوادي الجديد</option>
+              <option value="شمال سيناء">شمال سيناء</option>
+              <option value="جنوب سيناء">جنوب سيناء</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>وصف العطل (عشان الفني يجي جاهز)</label>
+            <textarea name="description" rows="4" placeholder="اكتب المشكلة اللي بتواجهك في الجهاز هنا..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit-form" id="submit-btn">إرسال الطلب الآن <i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- الفوتر (Footer) - ثابت في كل الصفحات -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        
+        <div class="footer-col about-col">
+          <div class="footer-logo">
+            <i class="fa-solid fa-gear"></i> مركز الصيانة المعتمد
+          </div>
+          <p>أقرب شركة صيانة أجهزة منزلية لحد باب بيتك. صيانة أجهزتك المنزلية لكل الماركات في جميع محافظات مصر، بضمان 6 شهور وفنيين متخصصين.</p>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col links-col">
+          <h3>خدمات الصيانة</h3>
+          <ul>
+            <li><a href="#" class="footer-nav-link" data-target="services"><i class="fa-solid fa-angle-left"></i> صيانة ثلاجات</a></li>
+            <li><a href="#" class="footer-nav-link" data-target="services"><i class="fa-solid fa-angle-left"></i> صيانة غسالات</a></li>
+            <li><a href="#" class="footer-nav-link" data-target="services"><i class="fa-solid fa-angle-left"></i> صيانة تكييفات</a></li>
+            <li><a href="#" class="footer-nav-link" data-target="services"><i class="fa-solid fa-angle-left"></i> صيانة سخانات</a></li>
+            <li><a href="#" class="footer-nav-link" data-target="services"><i class="fa-solid fa-angle-left"></i> صيانة بوتاجازات</a></li>
+            <li><a href="#" class="footer-nav-link" data-target="services"><i class="fa-solid fa-angle-left"></i> صيانة غسالات أطباق</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col links-col brands-col">
+          <h3>أشهر البراندات</h3>
+          <div class="brands-grid">
+            <ul>
+              <li>سامسونج</li>
+              <li>توشيبا</li>
+              <li>زانوسي</li>
+              <li>إنديست</li>
+              <li>وايت ويل</li>
+            </ul>
+            <ul>
+              <li>إل جي</li>
+              <li>شارب</li>
+              <li>أريستون</li>
+              <li>بوش</li>
+              <li>بيكو</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-col contact-col">
+          <h3>تواصل معنا</h3>
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot"></i> 
+              <span>شارع جامعة الدول العربية - المهندسين، الجيزة<br><small>(ونخدم الساحل الشمالي وجميع المحافظات)</small></span>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i> 
+              <span>الخط الساخن: <br><a href="tel:01100786152" dir="ltr">01100786152</a></span>
+            </li>
+            <li>
+              <i class="fa-brands fa-whatsapp"></i> 
+              <span>واتساب: <br><a href="https://wa.me/201100786152" dir="ltr">01100786152</a></span>
+            </li>
+            <li>
+              <i class="fa-solid fa-clock"></i> 
+              <span>خدمة عملاء 24 ساعة - 7 أيام في الأسبوع</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>نخدم جميع محافظات مصر - جميع الحقوق محفوظة © مركز الصيانة المعتمد</p>
+    </div>
+  </footer>
+
+  <!-- الأزرار العائمة (WhatsApp & Phone) -->
+  <div class="floating-btns">
+    <a href="tel:01100786152" class="float-phone"><i class="fa-solid fa-phone"></i></a>
+    <a href="https://wa.me/201100786152?text=السلام عليكم، أريد حجز موعد صيانة." target="_blank" class="float-whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+  </div>
+
+  <!-- ربط ملف الـ JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
